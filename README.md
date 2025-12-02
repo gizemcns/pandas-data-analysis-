@@ -1,24 +1,25 @@
 # pandas-data-analysis-
 Learning and practicing data analysis with Pandas step by step. — Pandas ile adım adım veri analizini öğrenin ve uygulayın.
-# 🐼 Pandas Veri Analizi ve Veri Bilimi Temelleri
+# 🐼 Pandas Veri Analizi, Temizliği ve Yapısal İşlemler
 
-Bu depo, Ekonomi Master'ı geçmişimden gelen analitik becerilerimi **Python** ve **Pandas** kütüphanesini kullanarak Veri Bilimi ve Makine Öğrenimi (ML) alanına aktarma sürecimi belgelemektedir. Temel olarak Pandas odaklı veri işleme, temizleme, görselleştirme teknikleri ve performans optimizasyonlarını içerir.
+Bu depo, Python'ın güçlü **Pandas** kütüphanesini kullanarak Veri Bilimi ve Makine Öğrenimi (ML) projelerinin temelini oluşturan **veri işleme, temizleme ve hazırlık** aşamalarına odaklanmaktadır. Ekonomi Master'ı geçmişimden gelen analitik düşünme becerilerimi, pratik kodlama yetenekleriyle birleştirme sürecimi belgelemektedir.
 
 ## 🎯 Proje Amacı
 
-* **Ekonomi Bilgisi + Kodlama:** Ekonomi alanındaki derinlemesine analiz yeteneğimi, Python ve Pandas'ın güçlü araçlarıyla birleştirerek pratik veri bilimi problemleri çözmek.
-* **Temiz Kod ve Yapı:** Tüm veri analizi projelerinde temiz, okunabilir ve modüler bir kodlama yapısını benimsemek.
-* **AI Geliştiriciliğine Geçiş:** Veri hazırlığı ve ön işleme aşamalarına hakim olarak temel ML modellerini uygulamaya geçmek.
+* **Veri Yönetimi Uzmanlığı:** Büyük ve karmaşık veri setlerinin Pandas ile hızlı ve etkin bir şekilde işlenmesi, temizlenmesi ve dönüştürülmesi.
+* **AI Geliştiriciliğine Temel:** Tüm ML ve yapay zeka uygulamaları için sağlam, temiz ve analiz edilebilir veri setleri hazırlama yetkinliğini kanıtlama.
+* **Yapısal Öğrenme:** Tüm Pandas özelliklerini (birleştirme, gruplama, filtreleme vb.) modüler ve anlaşılır örneklerle sunma.
 
-## 📁 Klasör Yapısı
+## 📁 Klasör Yapısı ve İçerikleri
 
 | Klasör Adı | İçerik ve Amaç |
 | :--- | :--- |
-| **data\_analysis\_and\_viz/** | Pandas ve yardımcı kütüphaneler (**Matplotlib, Seaborn**) kullanılarak yapılan çeşitli veri görselleştirme ve istatistiksel analiz örnekleri. |
-| **data\_cleaning\_for\_ML/** | Makine öğrenimi modellemesi öncesi **eksik değer yönetimi**, aykırı değer tespiti ve **veri normalizasyonu** gibi temizleme tekniklerinin uygulamaları. |
-| **pandas\_best\_practices/** | Pandas işlemlerinde performansı artıran, **vektörleştirme** ve optimize edilmiş kod yazımına yönelik ipuçları ve örnekler. |
-| **pandas\_recommendation\_system/** | (Taşındı) **NOT:** Bu klasördeki içerikler, daha iyi bir proje yönetimi için `machine-learning-projects` repoya taşınmıştır. |
-| **machine-learning/** | (Taşındı) **NOT:** Genel ML uygulamaları (Regresyon, Sınıflandırma) daha modüler bir yapı için `machine-learning-projects` repoya taşınmıştır. |
+| **data\_analysis\_and\_viz** | Pandas ve yardımcı kütüphaneler (**Matplotlib, Seaborn**) kullanılarak yapılan **keşifçi veri analizi (EDA)** ve çeşitli **veri görselleştirme** teknikleri. |
+| **data\_cleaning** | Veri setlerindeki genel **temizlik işlemleri**, hatalı değerlerin düzeltilmesi ve standartlaştırma örnekleri. |
+| **data\_cleaning\_for\_ML** | Makine öğrenimi modellemesi öncesi **eksik değer yönetimi**, **aykırı değer tespiti** ve **kategorik veri kodlama** gibi ileri temizleme tekniklerinin uygulamaları. |
+| **data\_filtering** | Pandas **`loc`**, **`iloc`**, boolean maskeleme ve karmaşık koşullar kullanarak veri setlerinden alt kümeler çekme teknikleri. |
+| **grouping\_aggregation** | **`groupby()`** metodu ile veriyi gruplama, **toplama (aggregation)**, özetleme ve raporlama amaçlı veri manipülasyonları. |
+| **join\_merge\_concat** | **`merge()`**, **`join()`** ve **`concat()`** fonksiyonları aracılığıyla Pandas DataFrameleri arasındaki **ilişkisel birleştirme** ve yığınlama işlemleri. |
 
 ## 🛠️ Kullanılan Teknolojiler
 
@@ -27,8 +28,16 @@ Bu depo, Ekonomi Master'ı geçmişimden gelen analitik becerilerimi **Python** 
 * **Görselleştirme:** Matplotlib, Seaborn
 * **Ortam:** Jupyter Notebook (**.ipynb**)
 
-## 💡 İletişim ve Geri Bildirim
-
-Bu repodaki kodlar ve yaklaşımlar hakkında her türlü geri bildirim ve öneriye açığım.
-
 ---
+
+### 🚀 Nasıl Kullanılır?
+
+1.  PowerShell'de (veya terminalde) **`pandas-data-analysis-`** repounuzun ana dizinine gidin.
+2.  **`README.md`** dosyasını açın ve yukarıdaki metni kopyalayıp yapıştırın.
+3.  Değişiklikleri Git'e kaydedip GitHub'a gönderin:
+
+    ```powershell
+    git add .
+    git commit -m "README.md dosyası yeni klasör yapısına göre güncellendi."
+    git push origin main
+    ```
