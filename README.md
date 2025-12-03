@@ -28,16 +28,6 @@ Bu depo, Python'ın güçlü **Pandas** kütüphanesini kullanarak Veri Bilimi v
 * **Görselleştirme:** Matplotlib, Seaborn
 * **Ortam:** Jupyter Notebook (**.ipynb**)
 
----
+## 🧑‍💻 Hazırlayan
 
-### 🚀 Nasıl Kullanılır?
-
-1.  PowerShell'de (veya terminalde) **`pandas-data-analysis-`** repounuzun ana dizinine gidin.
-2.  **`README.md`** dosyasını açın ve yukarıdaki metni kopyalayıp yapıştırın.
-3.  Değişiklikleri Git'e kaydedip GitHub'a gönderin:
-
-    ```powershell
-    git add .
-    git commit -m "README.md dosyası yeni klasör yapısına göre güncellendi."
-    git push origin main
-    ```
+Gizem Can Bayındır
